@@ -1,0 +1,93 @@
+﻿@page "/guardar"
+@page "/editarEstudiante/{id:int}"
+
+@using BussinesLogic.Interfaces
+@using DataAccessLogic.Transactions
+@inject IStudentBL bl
+@inject NavigationManager navegador
+
+
+<h3>Fomulario Estudiante</h3>
+@if (mensajeServer != null && mensajeServer != "")
+{
+    <span class="text-danger">@mensajeServer</span>
+}
+<EditForm Model="@objStudent">
+    <input type="hidden" @bind="objStudent.StudentId" />
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <label>Nombre</label>
+                </td>
+                <td>
+                    <input type="text" class="form-control" @bind="objStudent.Name" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Apellidos</label>
+                </td>
+                <td>
+                    <input type="text" class="form-control" @bind="objStudent.LastName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Edad</label>
+                </td>
+                <td>
+                    <input type="number" class="form-control" @bind="objStudent.Age" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="btn btn-primary" @onclick="guardarEstudiante">Guardar</button>
+                    <button class="btn btn-danger" @onclick="cancelar">Cancelar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    string mensajeServer = null;
+    GuardarEstudiante.Ejecuta objStudent = new GuardarEstudiante.Ejecuta();
+    protected void cancelar()
+        {
+            navegador.NavigateTo("/listaEstudiante");
+        }
+
+    protected async Task guardarEstudiante()
+    {
+        var rpt = await bl.Guardar(objStudent);
+        if (rpt == "Exito")
+        {
+            navegador.NavigateTo("/listaEstudiante");
+        }
+        else
+        {
+            mensajeServer = rpt;
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            if (id > 0)
+            {
+                objStudent = await bl.ObtenerPorId(id);
+            }
+            else
+                objStudent = new GuardarEstudiante.Ejecuta();
+        }
+        catch (Exception)
+        {
+            objStudent = new GuardarEstudiante.Ejecuta();
+        }
+    }
+}

@@ -1,0 +1,15 @@
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\bin\Debug\netcoreapp3.1\PersistenceData.deps.json
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\bin\Debug\netcoreapp3.1\PersistenceData.runtimeconfig.json
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\bin\Debug\netcoreapp3.1\PersistenceData.runtimeconfig.dev.json
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\bin\Debug\netcoreapp3.1\PersistenceData.dll
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\bin\Debug\netcoreapp3.1\PersistenceData.pdb
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\obj\Debug\netcoreapp3.1\PersistenceData.AssemblyInfoInputs.cache
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\obj\Debug\netcoreapp3.1\PersistenceData.AssemblyInfo.cs
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\obj\Debug\netcoreapp3.1\PersistenceData.csproj.CoreCompileInputs.cache
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\obj\Debug\netcoreapp3.1\PersistenceData.csproj.CopyComplete
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\obj\Debug\netcoreapp3.1\PersistenceData.dll
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\obj\Debug\netcoreapp3.1\PersistenceData.pdb
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\obj\Debug\netcoreapp3.1\PersistenceData.genruntimeconfig.cache
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\PersistenceData\obj\Debug\netcoreapp3.1\PersistenceData.csproj.AssemblyReference.cache

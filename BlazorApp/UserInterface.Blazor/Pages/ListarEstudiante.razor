@@ -1,0 +1,52 @@
+﻿@page "/listaEstudiante"
+@using BussinesLogic.Interfaces
+@using Models
+@inject IStudentBL bl
+
+<h3>Lista Estudiante</h3>
+@if (lista == null)
+{
+    <p>NO HAY ESTUDIANTES REGISTRADOS</p>
+}
+else
+{
+<table class="table">
+    <thead>
+        <tr>
+            <th>NOMBRE</th>
+            <th>APELLIDO</th>
+            <th>EDAD</th>
+            <th>OPCIONES</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in lista)
+        {
+            <tr>
+            <td>@item.Name</td>
+            <td>@item.LastName</td>
+            <td>@item.Age</td>
+                <td>
+                    <button class="btn btn-sm btn-danger"><span class="oi oi-trash" aria-hidden="true"></span></button>
+                    <a href="/editarEstudiante/@item.StudentId" class="btn btn-sm btn-warning"><span class="oi oi-pencil" aria-hidden="true"></span></a>
+                </td>
+        </tr>
+        }
+    </tbody>
+</table>
+}
+
+@code {
+    private List<Student> lista;
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            lista = await bl.Listar();
+        }
+        catch (Exception)
+        {
+            lista = null;
+        }
+    }
+}

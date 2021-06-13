@@ -1,0 +1,14 @@
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\obj\Debug\netcoreapp3.1\DataAccessLogic.AssemblyInfoInputs.cache
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\obj\Debug\netcoreapp3.1\DataAccessLogic.AssemblyInfo.cs
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\obj\Debug\netcoreapp3.1\DataAccessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\bin\Debug\netcoreapp3.1\DataAccessLogic.deps.json
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\bin\Debug\netcoreapp3.1\DataAccessLogic.dll
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\bin\Debug\netcoreapp3.1\DataAccessLogic.pdb
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\bin\Debug\netcoreapp3.1\PersistenceData.dll
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\bin\Debug\netcoreapp3.1\PersistenceData.pdb
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\obj\Debug\netcoreapp3.1\DataAccessLogic.csproj.CopyComplete
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\obj\Debug\netcoreapp3.1\DataAccessLogic.dll
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\obj\Debug\netcoreapp3.1\DataAccessLogic.pdb
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\DataAccessLogic\obj\Debug\netcoreapp3.1\DataAccessLogic.csproj.AssemblyReference.cache

@@ -1,0 +1,16 @@
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\obj\Debug\netcoreapp3.1\BussinesLogic.AssemblyInfoInputs.cache
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\obj\Debug\netcoreapp3.1\BussinesLogic.AssemblyInfo.cs
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\obj\Debug\netcoreapp3.1\BussinesLogic.csproj.CoreCompileInputs.cache
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\bin\Debug\netcoreapp3.1\BussinesLogic.deps.json
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\bin\Debug\netcoreapp3.1\BussinesLogic.dll
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\bin\Debug\netcoreapp3.1\BussinesLogic.pdb
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\bin\Debug\netcoreapp3.1\DataAccessLogic.dll
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\bin\Debug\netcoreapp3.1\PersistenceData.dll
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\bin\Debug\netcoreapp3.1\DataAccessLogic.pdb
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\bin\Debug\netcoreapp3.1\PersistenceData.pdb
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\obj\Debug\netcoreapp3.1\BussinesLogic.csproj.CopyComplete
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\obj\Debug\netcoreapp3.1\BussinesLogic.dll
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\obj\Debug\netcoreapp3.1\BussinesLogic.pdb
+C:\Users\Bryan J. Campos\source\repos\BlazorApp\BussinesLogic\obj\Debug\netcoreapp3.1\BussinesLogic.csproj.AssemblyReference.cache
